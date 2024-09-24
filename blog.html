@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone Five Project</title>
+
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/ae1526453f.js" crossorigin="anonymous"></script>
+
+    <!-- Google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- tailwind & daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind css configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        text_color: 'rgba(17, 17, 17)',
+                        primary: 'rgb(180, 244, 97)',
+                        secondary: 'rgb(249, 247, 243)',
+                        para: 'rgba(17, 17, 17, 0.7)',
+                    },
+                    fontFamily: {
+                        Inter: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+       
+    </style>
+</head>
+
+<body class="font-Inter">
+    <!-- header section -->
+    <header class="sticky top-0 mb-12">
+        <!-- this is navbar -->
+        <div class="nav-container w-full h-28 bg-secondary pt-5 ">
+            <div class="navbar w-11/12 mx-auto">
+                <div class="navbar-start">
+                    <a id="home-btn" class="btn  bg-primary w-24">
+                        <h2 class="text-text_color font-extrabold">Home</h2>
+                    </a>
+                </div>
+                <div class="navbar-center flex gap-2">
+                    <div class="nav-img">
+                        <img src="assets/logo.png" alt="">
+                    </div>
+                    <div class="nav-text text-black font-bold">Donate Bangladesh</div>
+                </div>
+                <div class="navbar-end flex gap-2">
+                    <div class="nav-coin">
+                        <img src="assets/coin.png" alt="">
+                    </div>
+                    <div class="nav-amount">
+                        <h2>98600 BDT</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <!-- faq section -->
+         <section class=" w-11/12 mx-auto ">
+            <div class="join join-vertical w-full">
+                <h1 class="font-extrabold text-4xl mb-5">Important FAQ <i class="fa-regular fa-circle-question"></i></h1>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                  <div class="collapse-content">
+                    <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                  <div class="collapse-content">
+                    <p>Selecting DOM (Document Object Model) elements is a fundamental aspect of web development with JavaScript. It allows developers to interact with and manipulate elements on a webpage dynamically. Proper selection of elements is crucial for tasks such as updating content, adding event listeners, or modifying styles.
+
+                        Below are the approaches to select DOM elements in JavaScript:
+
+                        1.Using getElementById
+                        2.Using getElementsByClassName
+                        3.Using getElementsByTagName
+                        4.Using querySelector
+                        5.Using querySelectorAll</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+                  <div class="collapse-content">
+                    <p>Event Delegation is a pattern based upon the concept of Event Bubbling. It is an event-handling pattern that allows you to handle events at a higher level in the DOM tree other than the level where the event was first received.Event Delegation is a useful pattern that allows you to write cleaner code, and create fewer event listeners with similar logic.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+                    <div class="collapse-content">
+                      <p>In web development, one of the main features to enable interactivity is DOM Manipulation. DOM manipulation allows developers to interact and modify the structure, style, and content of web pages dynamically.
+
+                        The below list contains different methods to manipulate DOM.
+                        
+                        1.DOM Element Selectors
+                        2.DOM content manipulators
+                        3.DOM element creators
+                        4.DOM CSS manipulators</p>
+                    </div>
+                  </div>
+              </div>
+         </section>
+         
+    </main>
+    <!-- footer section -->
+    <footer class="bg-secondary h-36 mt-16">
+        
+    </footer>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>
