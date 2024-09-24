@@ -22,3 +22,9 @@ function showSectionById(id){
     // show the section with the provide id as parameter
     document.getElementById(id).classList.remove('hidden');
 }
+
+//hiding modals function
+function modalsHide(id){
+    const result= document.getElementById(id).close();
+    // result.classList.add('hidden')
+}
