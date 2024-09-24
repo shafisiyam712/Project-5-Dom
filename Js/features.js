@@ -1,20 +1,15 @@
 //toggling with donation and history button
 
+//activating donation section by donation btn
 document.getElementById('donationForm-btn')
     .addEventListener('click', function () {
         showSectionById('donation');
     });
 
-
+//activating history section by history btn
 document.getElementById('historyForm-btn')
     .addEventListener('click', function () {
         showSectionById('history');
     });
 
  
-// const p = document.createElement('p');
-//             p.innerText = `Added: ${donateMoney} Tk. New Balance:`;
-//             console.log(p); 
-
-//             // should be a common function
-//             document.getElementById('history').appendChild(p);
