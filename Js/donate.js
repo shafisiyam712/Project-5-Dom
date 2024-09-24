@@ -30,11 +30,7 @@ document.getElementById('donateNow-btn').addEventListener('click',function(){
  divItems.className="w-11/12 mx-auto p-5 rounded-md  border mt-3";
  divItems.innerHTML=`
              <h1 class="font-bold">${donateMoney.toFixed(2)} Tk is donated for Flood at Noakhali, Bangladesh</h1>
-            <p class="text-gray-500">${new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Dhaka',
-                timeStyle: 'medium',
-                dateStyle: 'full'
-              })}</p>
+            <p class="text-gray-500">${new Date()}</p>
  `
  document.getElementById('history').appendChild(divItems);
 
@@ -73,11 +69,7 @@ document.getElementById('donateNow-btn2').addEventListener('click',function(){
  divItems.className="w-11/12 mx-auto p-5 rounded-md  border mt-3";
  divItems.innerHTML=`
              <h1 class="font-bold">${donateMoney.toFixed(2)} Tk is donated for Flood relief in Feni,Bangladesh</h1>
-            <p class="text-gray-500">${new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Dhaka',
-                timeStyle: 'medium',
-                dateStyle: 'full'
-              })}</p>
+            <p class="text-gray-500">${new Date()}</p>
  `
  document.getElementById('history').appendChild(divItems);
 
@@ -115,11 +107,7 @@ document.getElementById('donateNow-btn3').addEventListener('click',function(){
  divItems.className="w-11/12 mx-auto p-5 rounded-md  border mt-3";
  divItems.innerHTML=`
              <h1 class="font-bold">${donateMoney.toFixed(2)} Tk is donated for aid for injured in the quota movement, Bangladesh</h1>
-            <p class="text-gray-500">${new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Dhaka',
-                timeStyle: 'medium',
-                dateStyle: 'full'
-              })}</p>
+            <p class="text-gray-500">${new Date()}</p>
  `
  document.getElementById('history').appendChild(divItems);
 

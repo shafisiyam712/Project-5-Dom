@@ -1,7 +1,8 @@
 // declare a function to take all input value
 function getInputFieldValueById(id){
     const inputValue = document.getElementById(id).value;
-    const inputNumber = parseFloat(inputValue);
+    const number=Number(inputValue);
+    const inputNumber = parseFloat(number);
     
     return inputNumber;
 }
