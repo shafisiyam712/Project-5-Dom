@@ -6,7 +6,7 @@ function getInputFieldValueById(id){
     return inputNumber;
 }
 
-//converting default string amount to number
+//converting default string amount to number function
 function getTextFieldValueById(id){
     const textValue = document.getElementById(id).innerText;
     const textNumber = parseFloat(textValue);
@@ -25,6 +25,6 @@ function showSectionById(id){
 
 //hiding modals function
 function modalsHide(id){
-    const result= document.getElementById(id).close();
+    let result= document.getElementById(id).close();
     // result.classList.add('hidden')
 }
